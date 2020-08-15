@@ -11,3 +11,5 @@ Used LiveData for getting data from database, so we can observe data.
 For attaching data in recyclerview ViewHolders , I had used Data Binding.
 
 Used ViewModel for communicating between UI and Repository class.
+
+Also added validation for if username not entered or answers are not selected.
