@@ -9,6 +9,13 @@ import com.anisjamadar26.triviaapp2.entity.GameEntity;
 
 import java.util.List;
 
+/**
+ * The data access object, or Dao,
+ * here I specify SQL queries and associate them with method calls.
+ *
+ * here I specify Insert operation and Get all Data operation
+ */
+
 @Dao
 public interface GameDao {
 

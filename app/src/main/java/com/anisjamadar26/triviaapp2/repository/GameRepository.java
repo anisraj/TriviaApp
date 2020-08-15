@@ -11,6 +11,14 @@ import com.anisjamadar26.triviaapp2.entity.GameEntity;
 
 import java.util.List;
 
+/**
+ * This Repository is a class that can access multiple data sources,
+ * used for for code separation and good architecture.
+ *
+ * So here I have Room Database access, and from that I get LiveData,
+ * used LiveData class for observe data
+ */
+
 public class GameRepository {
     private GameDao gameDao;
     private LiveData<List<GameEntity>> allGameData;
@@ -28,6 +36,10 @@ public class GameRepository {
     public void insert(GameEntity gameEntity) {
         new InsertAsyncTask(gameDao).execute(gameEntity);
     }
+
+    /**
+     * for insert operation used AsyncTask, so our ui will not freeze
+     */
 
     private static class InsertAsyncTask extends AsyncTask<GameEntity, Void, Void> {
         private GameDao asyncTaskDao;

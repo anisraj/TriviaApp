@@ -18,6 +18,14 @@ import com.anisjamadar26.triviaapp2.entity.GameEntity;
 
 import java.util.List;
 
+/**
+ * This is fragment I used to show history of previous games,
+ * in layout used recyclerview,
+ * and for attaching data to recyclerview used adapter,
+ * for getting data from database used ViewModel
+ */
+
+
 public class HistoryFragment extends Fragment {
     private RecyclerView recyclerView;
     private HistoryViewModel historyViewModel;

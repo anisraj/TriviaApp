@@ -5,6 +5,14 @@ import androidx.room.ColumnInfo;
 import androidx.room.Entity;
 import androidx.room.PrimaryKey;
 
+/**
+ * The data for this app is played game data,
+ * so this is entity for that data,
+ * Room will create database table from this,
+ * and will add many entities of this type in the table
+ * , we also mention table name and column names in this entity and make primary key on one column
+ */
+
 @Entity(tableName = "game_history_table")
 public class GameEntity {
 

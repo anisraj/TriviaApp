@@ -20,6 +20,12 @@ import com.google.android.material.textfield.TextInputLayout;
 
 import static android.content.Context.MODE_PRIVATE;
 
+/**
+ * In this activity I am getting user name, I validated that if without entering anything user clicks
+ * start quiz, then it does not stated
+ *
+ * then saved user name value in SharedPreferences, later saved in database
+ */
 public class UserNameFragment extends Fragment {
 
     public static final String NAME_KEY = "com.anisjamadar26.triviaapp.NAME_KEY";

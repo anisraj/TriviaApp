@@ -22,6 +22,12 @@ import static android.content.Context.MODE_PRIVATE;
 
 public class FlagQuesFragment extends Fragment {
 
+    /**
+     * This screen provides questions of flag colors,
+     * used checkboxes, so user can select multiple answers
+     * After selecting choices, added it to string, added in SharedPreferences and
+     * later used for storing in database
+     */
     //getting view
     private CheckBox cbWhite;
     private CheckBox cbYellow;
@@ -117,6 +123,9 @@ public class FlagQuesFragment extends Fragment {
             selectedFlagColors.add("Green");
         }
 
+        /**
+         * This is where I add logic for adding comma(,) if more answers selected
+         */
         for (int i = 0; i < selectedFlagColors.size(); i++) {
 
             stringBuilder.append(selectedFlagColors.get(i));

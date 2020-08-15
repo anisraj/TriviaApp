@@ -10,6 +10,11 @@ import com.anisjamadar26.triviaapp2.repository.GameRepository;
 
 import java.util.List;
 
+/**
+ * This class provide data to UI,
+ * It is communication center between Repository and UI,
+ * This provides all previously played game data
+ */
 public class HistoryViewModel extends AndroidViewModel {
 
     private GameRepository gameRepository;

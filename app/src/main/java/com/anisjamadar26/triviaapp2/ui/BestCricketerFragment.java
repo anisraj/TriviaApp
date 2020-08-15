@@ -19,6 +19,12 @@ import com.anisjamadar26.triviaapp2.R;
 
 import static android.content.Context.MODE_PRIVATE;
 
+/**
+ * This screen contains best cricketer question, used RadioButtons so
+ * user can select only one option from radio group
+ *
+ * Saved selected value in SharedPreferences and later used to store in database
+ */
 public class BestCricketerFragment extends Fragment {
 
     //getting views

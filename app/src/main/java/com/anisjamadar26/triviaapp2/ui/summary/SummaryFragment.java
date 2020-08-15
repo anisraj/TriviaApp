@@ -25,6 +25,10 @@ import java.util.Date;
 
 import static android.content.Context.MODE_PRIVATE;
 
+/**
+ *  This is summary screen, here I have SummaryViewModel, using that I save data into database,
+ */
+
 public class SummaryFragment extends Fragment {
 
     private SummaryViewModel summaryViewModel;

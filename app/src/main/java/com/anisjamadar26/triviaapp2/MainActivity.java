@@ -5,6 +5,12 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 
+/**
+ * here is main launch activity, here i just show splash screen for
+ * two seconds, but in real app we can show splash screen until our data loads from server.
+ * After two seconds it goes to Trivia Activity
+ * */
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -12,11 +18,12 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        //hiding action bar to get full screen view
+        /**
+         * hiding action bar to get full screen view
+         */
+
         getSupportActionBar().hide();
 
-        //this is for splash activity,
-        //in real app we will load data from database till then we will show splash screen
         final Thread thread = new Thread(new Runnable() {
             @Override
             public void run() {

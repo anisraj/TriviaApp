@@ -10,6 +10,12 @@ import androidx.appcompat.widget.Toolbar;
 
 import android.view.View;
 
+     /**
+      * in this app, I used navigation graph for navigating,
+      * so this activity contains host fragment for different screens
+      * and in navigation graph, there are different actions for navigating between screens
+      */
+
 public class TriviaActivity extends AppCompatActivity {
 
     @Override
@@ -18,6 +24,5 @@ public class TriviaActivity extends AppCompatActivity {
         setContentView(R.layout.activity_trivia);
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-
     }
 }

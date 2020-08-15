@@ -16,6 +16,10 @@ import com.anisjamadar26.triviaapp2.entity.GameEntity;
 
 import java.util.List;
 
+/**
+ * This is adapter for recyclerview, and for its viewholders or item views, I used data binding
+ */
+
 public class HistoryDataAdapter extends RecyclerView.Adapter<HistoryDataAdapter.ViewHolder> {
     private final LayoutInflater layoutInflater;
     private List<GameEntity> gameEntities;
