@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Trivia App 2</string>
+    <string name="title_activity_trivia">TriviaActivity</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="name_hint">Name</string>
+    <string name="what_is_your_name">What is your name?</string>
+    <string name="best_cricketer_ques">Who is the best cricketer in the world?</string>
+    <string name="national_flag_ques">What are the colors in the Indian national flag?</string>
+    <string name="history_button_label">Click to see history</string>
+
+    <string name="sachin_tendulkar">Sachin Tendulkar</string>
+    <string name="virat_kohli">Virat Kohli</string>
+    <string name="adam_gilchirst">Adam Gilchirst</string>
+    <string name="jacques_kallis">Jacques Kallis</string>
+</resources>
